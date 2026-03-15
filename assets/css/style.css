@@ -31,7 +31,8 @@
 html,
 body {
     height: 100%;
-    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -186,6 +187,7 @@ body {
     min-height: 100vh;
     position: relative;
     z-index: 1;
+    overflow-y: auto;
 }
 
 /* Stats Cards */
