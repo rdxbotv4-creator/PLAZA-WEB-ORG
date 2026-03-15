@@ -82,20 +82,16 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* Product Section - FIXED 50% HEIGHT */
+/* Product Section */
 .product-section {
     margin-bottom: 15px;
 }
 
 .product-box {
-    max-height: 60vh;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(15px);
     border-radius: 20px;
     border: 1px solid var(--glass-border);
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
